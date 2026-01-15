@@ -13,3 +13,4 @@ if __name__ == "__main__":
     print(f"The recommened light in the room is {my_kitchen.get_recommended_lighting()}")
     counter,wall = my_kitchen.calculate_counter_space()
     print(f"{counter} {wall}")
+    print(room.Kitchen.calculate_counter_space.__doc__)
