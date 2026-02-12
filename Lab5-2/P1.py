@@ -1,9 +1,7 @@
 """
-Name: [Your Name Here]
-Student ID: [Your Student ID Here]
+Tintraia Emrat
+683040490-7
 
-Lab 5-2: Windows, Signaling and Styling
-BMI Calculator Application
 """
 
 import sys
