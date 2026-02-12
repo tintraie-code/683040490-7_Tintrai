@@ -195,7 +195,7 @@ class InputSection(QWidget):
         weight_label = QLabel("Weight:")
         weight_label.setFixedWidth(95)
         self.weight_input = QLineEdit()
-        # ตั้งค่าให้รับเฉพาะตัวเลขบวก (0.0 ถึง 999.99)
+        # Set input weight 0 - 999.99
         weight_validator = QDoubleValidator(0.0, 999.99, 2)
         weight_validator.setNotation(QDoubleValidator.Notation.StandardNotation)
         self.weight_input.setValidator(weight_validator)
