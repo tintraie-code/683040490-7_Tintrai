@@ -1,3 +1,4 @@
+#5-5 P1
 import sys
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QStackedWidget,
